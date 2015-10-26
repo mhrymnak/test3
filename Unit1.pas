@@ -16,6 +16,7 @@ type
     { Private declarations }
   public
     { Public declarations }
+    procedure WyswietlTekst(tekst:AnsiString);
   end;
 
 var
@@ -24,6 +25,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.WyswietlTekst(tekst:AnsiString);
+begin
+  ShowMessage(tekst);
+end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
