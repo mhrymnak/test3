@@ -45,7 +45,11 @@ end;
 
 procedure TForm1.Button3Click(Sender: TObject);
 begin
+//<<<<<<< Updated upstream
   Showmessage('Hello and welcome');
+//=======
+  ShowMessage('Hi.');
+//>>>>>>> Stashed changes
 end;
 
 end.
