@@ -38,7 +38,7 @@ end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
-  ShowMessage('Welcome World and Universe!');
+  ShowMessage('Welcome World and Universe');
 end;
 
 end.
