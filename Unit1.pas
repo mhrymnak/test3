@@ -12,8 +12,11 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
+<<<<<<< HEAD
     Button5: TButton;
     Button6: TButton;
+=======
+>>>>>>> parent of a5a2a34... Dodanie P2
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
