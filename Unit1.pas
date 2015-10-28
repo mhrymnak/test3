@@ -15,6 +15,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure btnP2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,6 +33,11 @@ implementation
 procedure TForm1.WyswietlTekst(tekst:AnsiString);
 begin
   ShowMessage(tekst);
+end;
+
+procedure TForm1.btnP2Click(Sender: TObject);
+begin
+  ShowMessage('P2');
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
